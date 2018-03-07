@@ -13,7 +13,7 @@ namespace Silvers.Controllers
         public ActionResult Random()
         {
             var movie = new Movie() { Name = "Shape of water" };
-            return View();
+            return View(movie);
         }
     }
 }
